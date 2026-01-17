@@ -9,5 +9,27 @@ wheels/
 # Virtual environments
 .venv
 
-
+# Environment variables
 .env
+
+# AWS-specific files (not needed for Render)
+*.pem
+aws-key-*
+
+# Downloaded videos
+downloads/
+*.mp4
+*.webm
+
+# Old/unused files
+config.py
+downloader.py
+api_test.py
+main.py
+txt.txt
+cookies.txt
+
+# Python project files (uv-specific, not needed)
+pyproject.toml
+uv.lock
+.python-version
