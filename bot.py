@@ -49,7 +49,7 @@ def run_web_server():
 
 # --- TELEGRAM BOT LOGIC ---
 
-async def download_video_via_api(url):
+def download_video_via_api(url):
     """
     Tries to download the video using the list of Cobalt API instances.
     Returns: (file_path, error_message)
